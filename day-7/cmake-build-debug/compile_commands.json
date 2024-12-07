@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/projects/advent-coding/day-7/cmake-build-debug",
+  "command": "C:\\Users\\nexti\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\day_7.dir\\library.cpp.obj -c C:\\projects\\advent-coding\\day-7\\library.cpp",
+  "file": "C:\\projects\\advent-coding\\day-7\\library.cpp",
+  "output": "CMakeFiles\\day_7.dir\\library.cpp.obj"
+}
+]

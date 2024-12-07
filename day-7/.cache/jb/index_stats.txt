@@ -1,0 +1,53 @@
+Indexing took 0 seconds
+Indexing strategy: LightModules
+MMap generator: v1
+Header to module strategy: min usages threshold = 8, min module size = 0kb
+Number of errors = 20
+Number of unique errors = 20
+Number of compiled modules = 0
+Number of reused modules = 0
+Number of merged definitions = 0
+Number of skipped bodies = 0
+Number of accepts via secondary include = 0
+Number of rejects via secondary include = 0
+SIDYes = 0, SIDNo = 0, SIDUnsure = 27
+SIFYes = 1, SIFNo = 0
+Modules cache size = 0.00 B
+No failed modules
+File C:\projects\advent-coding\day-7\library.cpp: 20 errors
+[1, 10]  - 'iostream' file not found
+[2, 10]  - 'fstream' file not found
+[3, 10]  - 'sstream' file not found
+[4, 10]  - 'vector' file not found
+[5, 10]  - 'string' file not found
+[6, 10]  - 'regex' file not found
+[7, 10]  - 'functional' file not found
+[8, 10]  - 'iterator' file not found
+[14, 5]  - unknown type name 'string'
+[17, 1]  - unknown type name 'string'
+[18, 11]  - unknown type name 'string'
+[18, 29]  - use of undeclared identifier 'string'
+[19, 5]  - unknown type name 'ifstream'
+[19, 33]  - use of undeclared identifier 'ios_base'
+[19, 48]  - use of undeclared identifier 'ios_base'
+[21, 16]  - cannot initialize return object of type 'int' with an lvalue of type 'const char[1]'
+[23, 5]  - unknown type name 'ostringstream'
+[28, 8]  - use of undeclared identifier 'string'
+[28, 31]  - unknown type name 'string'
+[0, 0]  - too many errors emitted, stopping now
+Processed 1 TUs in
+ - real time = 14ms
+ - indexing CPU time = 12ms
+ - symbols writing CPU time = 0ms
+ - symbols reading CPU time = 0ms
+ - waiting to finish time = 0ms
+TU [C:\projects\advent-coding\day-7\library.cpp] processed in 12ms and succeed.
+
+WAIT TIME:
+Waiting for symbol files took 0ms
+Waiting for modules took 0ms of CPU time
+
+PROCESSED TIMES:
+File C:\projects\advent-coding\day-7\cmake-build-debug\<command line> processed 1 times
+File C:\projects\advent-coding\day-7\cmake-build-debug\<built-in> processed 1 times
+File C:\projects\advent-coding\day-7\library.cpp processed 1 times

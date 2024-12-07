@@ -1,0 +1,3 @@
+C:/projects/advent-coding/day-7/cmake-build-debug/CMakeFiles/day_7.dir
+C:/projects/advent-coding/day-7/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/projects/advent-coding/day-7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
