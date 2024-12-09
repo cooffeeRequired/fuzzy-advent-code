@@ -166,11 +166,11 @@ if __name__ == "__main__":
     with ProcessPoolExecutor() as executor:
         # Submit tasks to be executed in parallel
         future_first = executor.submit(first_part, line, print_queue)
-        #future_second = executor.submit(second_part, line, print_queue)
+        future_second = executor.submit(second_part, line, print_queue)
 
         # Collect results while processing print messages
         first_result = None
-        #second_result = None
+        second_result = None
 
         while not (future_first.done()): # future_second.done()
             while not print_queue.empty():
@@ -178,7 +178,7 @@ if __name__ == "__main__":
 
         # Fetch final results
         first_result = future_first.result()
-        #second_result = future_second.result()
+        second_result = future_second.result()
 
         # Ensure all queued messages are printed
         while not print_queue.empty():
@@ -186,5 +186,5 @@ if __name__ == "__main__":
 
     # Print results
     print(Style.BRIGHT + Fore.YELLOW + "First part result: " + str(first_result))
-    #print(Style.BRIGHT + Fore.CYAN + "Second part result: " + str(second_result))
+    print(Style.BRIGHT + Fore.CYAN + "Second part result: " + str(second_result))
     print()
