@@ -5,7 +5,7 @@ use colored::*;
 
 fn main() -> io::Result<()> {
     // Načti vstupní data ze souboru
-    let contents = read_input("./resources/real")?;
+    let contents = read_input("./resources/test")?;
     println!("{}", "File Contents:".blue().bold());
     println!("{}", contents);
 
